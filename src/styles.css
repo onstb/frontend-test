@@ -1,0 +1,155 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(37, 150, 190);
+  color: #333;
+}
+
+div {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #EDEDED;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Add the following styles for the search div */
+.search-div {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+  display: inline-block; /* Align the form horizontally */
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:black;
+}
+.search-div form input {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: white; /* White background for the search bar */
+  border: 1px solid #007BFF; /* Blue border for the search bar */
+  border-radius: 5px; /* Rounded corners */}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007BFF; /* Blue background */
+  color: white;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: white; /* White background */
+  color: #007BFF; /* Blue text */
+  border: 1px solid #007BFF;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for a smoother hover effect */
+}
+
+/* Add the following styles for horizontal pagination */
+.pagination {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal display */
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: white;
+  color: black;
+  border: 1px solid #007BFF;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Add the following styles for circular image */
+img {
+  border-radius: 50%;
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  object-fit: cover;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+}
+
+.image-column {
+  margin-right: 20px;
+}
+
+.data-column {
+  flex-grow: 1;
+}
+
+/* Add the following styles for the button in the content item */
+.button-column {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.button-column button {
+  padding: 10px;
+  background-color: white;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for a smoother hover effect */
+}
+
+.button-column button:hover {
+  background-color: #007BFF;
+  color: white;
+}

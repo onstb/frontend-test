@@ -1,4 +1,3 @@
-// Import necessary dependencies
 import React, { useState } from 'react';
 
 // SearchBar component
@@ -23,7 +22,7 @@ function SearchBar({ onSearch }) {
           value={searchQuery}
           onChange={handleInputChange}
         />
-        {/* Remove the submit button */}
+        
       </form>
     </div>
   );

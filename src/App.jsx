@@ -1,4 +1,3 @@
-// Import necessary dependencies
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ContentList from './ContentList';
@@ -9,7 +8,7 @@ import WemapLogo from './assets/wemap.svg';
 
 // Define the API URL
 const apiUrl = 'https://api.getwemap.com/v3.0/pinpoints/search';
-const itemsPerPage = 10; // Number of items to display per page
+const itemsPerPage = 10; 
 
 // App component
 function App() {

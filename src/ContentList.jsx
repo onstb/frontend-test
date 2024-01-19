@@ -1,4 +1,3 @@
-// Import necessary dependencies
 import React from 'react';
 import ContentItem from './ContentItem';
 
@@ -13,6 +12,7 @@ function ContentList({ contentData, currentPage, itemsPerPage }) {
   
     return (
       <div>
+        <h2>Content List</h2>
         <ul>
           {currentPageItems.map((item) => (
             <ContentItem key={item.id} data={item} />

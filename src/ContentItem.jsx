@@ -1,4 +1,3 @@
-// Import necessary dependencies
 import React from 'react';
 
 // ContentItem component
@@ -16,7 +15,7 @@ function ContentItem({ data }) {
           <p>Address: {data.address}</p>
         </div>
         <div className="data-column">
-        <button onClick={() => window.open(mapLink, '_blank')}>Lien vers la carte</button>
+        <button onClick={() => window.open(mapLink, '_blank')}>Voir sur la carte</button>
         </div>
       </div>
     </li>

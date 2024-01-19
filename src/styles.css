@@ -1,17 +1,16 @@
-/* styles.css */
 
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(37, 150, 190);
+  background-color: rgba(255, 255, 255, 0.87);
   color: #333;
 }
 
 div {
   margin: 0 auto;
   padding: 20px;
-  background-color: #EDEDED;
+  background-color: rgba(255, 255, 255, 0.87);
   border-radius: 5px;
   margin-top: 20px;
 }
@@ -119,6 +118,7 @@ img {
   width: 100px; /* Adjust the size as needed */
   height: 100px; /* Adjust the size as needed */
   object-fit: cover;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .content-item {

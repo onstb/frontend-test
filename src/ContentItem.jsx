@@ -1,6 +1,5 @@
 import React from 'react';
 
-// ContentItem component
 function ContentItem({ data }) {
   const mapLink = `https://livemap.getwemap.com/#/pinpoints/${data.id}`;
 
